@@ -20,4 +20,4 @@ npm run web
 npm run lint
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, consult the [docs for react](https://reactjs.org/docs).

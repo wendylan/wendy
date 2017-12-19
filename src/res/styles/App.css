@@ -158,3 +158,11 @@ body{
 .calendar-list .right {
     float: right;
 }
+
+.date-picker-list .am-list-item .am-list-line .am-list-extra {
+  flex-basis: initial;
+}
+
+.sub-title {
+  margin: 8px;
+}

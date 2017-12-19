@@ -11,6 +11,9 @@ import ReactDOM from 'react-dom';
 // import SegmentedControl from './component/SegmentedControl.js';
 // import Tab from './component/Tab.js';
 // import TabBar from './component/TabBar.js';
-import Calendar from './component/Calendar.js';
+// import Calendar from './component/Calendar.js';
+// import DatePicker from './component/DatePicker.js';
+// import DatePickerView from './component/DatePickerView.js';
+import ImgPicker from './component/imgPicker.js';
 
-ReactDOM.render(<Calendar  />, document.getElementById('root'));
+ReactDOM.render(<ImgPicker  />, document.getElementById('root'));

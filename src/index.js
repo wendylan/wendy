@@ -14,6 +14,8 @@ import ReactDOM from 'react-dom';
 // import Calendar from './component/Calendar.js';
 // import DatePicker from './component/DatePicker.js';
 // import DatePickerView from './component/DatePickerView.js';
-import ImgPicker from './component/imgPicker.js';
+// import ImgPicker from './component/InputItem.js';
+// import InputItem from './component/InputItem.js';
+import Range from './component/range.js';
 
-ReactDOM.render(<ImgPicker  />, document.getElementById('root'));
+ReactDOM.render(<Range  />, document.getElementById('root'));

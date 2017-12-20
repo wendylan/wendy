@@ -16,6 +16,10 @@ import ReactDOM from 'react-dom';
 // import DatePickerView from './component/DatePickerView.js';
 // import ImgPicker from './component/InputItem.js';
 // import InputItem from './component/InputItem.js';
-import Range from './component/range.js';
+// import Range from './component/range.js';
+// import Radio from './component/Radio.js';
+// import Switch from './component/Switch.js';
+// import Search from './component/Search.js';
+import Slider from './component/Slider.js';
 
-ReactDOM.render(<Range  />, document.getElementById('root'));
+ReactDOM.render(<Slider  />, document.getElementById('root'));

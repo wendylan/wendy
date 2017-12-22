@@ -206,3 +206,76 @@ body{
   font-size: 14px;
   padding: 30px 0 18px 0;
 }
+
+.corner-badge {
+  height: 50px;
+  width: 200px;
+}
+.special-badge .am-list-line {
+  padding-right: 0;
+}
+.special-badge .am-list-line .am-list-extra {
+  padding: 0;
+  height: 44px;
+}
+.special-badge .am-badge {
+  transform: rotate(45deg);
+  transform-origin: right bottom;
+  right: 0;
+  top: 13px;
+  width: 50px;
+}
+.special-badge .am-badge-text {
+  border-radius: 1px;
+}
+
+.my-carousel .v-item {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 10px;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 15px 0 9px 15px;
+}
+.not-square-grid .am-grid-icon {
+  width: 40px;
+  height: 60px;
+}
+
+.stepsExample .timeline.am-steps.am-steps-small
+.am-steps-item.am-steps-custom
+.am-steps-head-inner > .am-steps-icon {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #d9dff1;
+}
+.stepsExample .timeline.am-steps.am-steps-small .am-steps-tail {
+  top: 3px;
+  padding: 0 8px;
+  background-color: transparent;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+
+.tag-container{
+  display: flex;
+  padding-top: 9px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tag-container > div {
+  margin-left: 9px;
+  margin-bottom: 9px;
+}

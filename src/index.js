@@ -33,6 +33,15 @@ import ReactDOM from 'react-dom';
 // import NoticeBar from './component/NoticeBar.js';
 // import Steps from './component/Steps.js';
 // import Tag from './component/Tag.js';
-import ActionSheet from './component/ActionSheet.js';
+// import ActionSheet from './component/ActionSheet.js';
+// import ActivityIndicator from './component/ActivityIndicator.js';
+// import Modal from './component/Modal.js';
+// import Progress from './component/Progress.js';
+// import Toast from './component/Toast.js';
+// import PullToRefresh from './component/PullToRefresh.js';
+// import SwipeAction from './component/SwipeAction.js';
+import ListView from './component/ListView.js';
+// import Result from './component/Result.js';
+// import LocalProvider from './component/LocalProvider.js';
 
-ReactDOM.render(<ActionSheet  />, document.getElementById('root'));
+ReactDOM.render(<ListView  />, document.getElementById('root'));

@@ -5,7 +5,8 @@ var mypath = './dist';
 
 module.exports = {
   entry: {
-    'index' : './src/index.js'
+    'index' : './src/index.js',
+    'proIndex' : './src/example/proIndex.js',
   },
   output: {
     path: path.resolve(__dirname, mypath),

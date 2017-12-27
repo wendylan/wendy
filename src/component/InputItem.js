@@ -130,7 +130,7 @@ class BasicInputExample extends React.Component {
 
         <WhiteSpace />
 
-        <List renderHeader={() => 'Number of words for title'}>
+        <List renderHeader={() => 'Number of words for titlecds'}>
           <InputItem
             {...getFieldProps('label8')}
             placeholder="limited title length"

@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputItem } from 'antd-mobile';
+import { List, InputItem } from 'antd-mobile';
 
 class NameForm extends React.Component {
     constructor(props) {
@@ -7,35 +7,23 @@ class NameForm extends React.Component {
         this.state = {
             user : {}
         };
-        // this.handleChange = this.handleChange.bind(this);
     }
 
-    // handleChange = (event) => {
-    //     // console.log(event);
-    //     // console.log(this.state.user);
-    //     this.setState({
-    //         user : {
-    //             name : event,
-    //             password : ''
-    //         }
-    //     });
-    //     console.log(this.state.user.name);
-    // }
-
     handleChange = (event)=>{
-        // console.log(event);
-        // this.setState({user.password : event});
-        const target = event.target;
-        const value = target.value;
-        const name = target.name;
-        // console.log(name);
-        //
-        this.setState({
-            // Object.assign(user, {''});
-            // Object.assign({}, ...this.state.user, [name]: value );
-            // Object.assign(this.state.user, name : 'event' );
-            user : Object.assign(this.state.user, {[name]: value} )
-        });
+        // console.log(this.refs.user.state.value);
+        console.log(this.refs.password.value);
+        console.log(event);
+        // const target = event.target;
+        // const value = target.value;
+        // const name = target.name;
+        // // console.log(name);
+        // //
+        // this.setState({
+        //     // Object.assign(user, {''});
+        //     // Object.assign({}, ...this.state.user, [name]: value );
+        //     // Object.assign(this.state.user, name : 'event' );
+        //     user : Object.assign(this.state.user, {[name]: value} )
+        // });
         // console.log(this.state.user);
 
     }
@@ -49,12 +37,14 @@ class NameForm extends React.Component {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
-                <input name="name" type="text" placeholder="please write your name"  onChange={this.handleChange} />
-                <input name="password" type="password" placeholder="please write your password"  onChange={this.handleChange} />
+            <List renderHeader={() => 'Confirm when typing'}>
+                <form onSubmit={this.handleSubmit}>
+                    <input ref="name" type="text" placeholder="please write your name"  onChange={this.handleChange} />
+                    <input ref="password" type="password" placeholder="please write your password"  onChange={this.handleChange} />
 
-                <input type="submit" value="Submit" />
-            </form>
+                    <input type="submit" value="Submit" />
+                </form>
+            </List>
         );
     }
 }
